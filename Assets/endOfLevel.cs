@@ -8,7 +8,7 @@ public class endOfLevel : MonoBehaviour
     public void endOfGame()
     {
         //Application.Quit();
-        SceneManager.LoadScene("fps");
+        SceneManager.LoadScene("salaSubterranea");
         
     }
 }
