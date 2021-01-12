@@ -11,4 +11,9 @@ public class endOfLevel : MonoBehaviour
         SceneManager.LoadScene("salaSubterranea");
         
     }
+    public void reallyEndOfGame()
+    {
+        Application.Quit();
+
+    }
 }
